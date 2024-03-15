@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "我酷前端小站",
   description: "分享前端与科技生活",
-  base: "./",
+  base: "/book/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
