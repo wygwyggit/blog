@@ -4,6 +4,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "我酷前端小站",
   description: "分享前端与科技生活",
+  lastUpdated: true,
+  head: [
+    [
+      'link',
+      { rel: 'icon', href: 'https://static.woku.net/blog/logo/favicon.ico' }
+    ]
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -22,9 +29,18 @@ export default defineConfig({
         ]
       }
     },
+    search: {
+      provider: 'algolia',
+      options: {
+        appId: 'P42XOBT16P',
+        apiKey: '974c6866a475b10bd7fd33138fde4013',
+        indexName: 'wygdocs'
+      }
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  
 })
