@@ -10,15 +10,12 @@ hero:
   tagline: |
     一站式前端内容分享网站，包括学习笔记、工作生活
   image:
-    src: /logo.png
+    src: /it.svg
     alt: wokuBlog
   actions:
     - theme: brand
       text: 开始阅读
       link: /guide
-    - theme: alt
-      text: 学习圈子
-      link: /zsxq
     - theme: alt
       text: 面试大全
       link: /interview/

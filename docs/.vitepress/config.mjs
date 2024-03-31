@@ -6,12 +6,10 @@ export default defineConfig({
   description: "这有关于前端、后端相关的文章和笔记内容，还有项目合集和生活分享。相信你可以在这里找到对你有用的知识和教程",
   lastUpdated: true,
   head: [
-    [
-      'link',
-      { rel: 'icon', href: 'https://static.woku.net/blog/logo/favicon.ico' }
-    ]
+    ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
   ],
   themeConfig: {
+    logo: './logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
