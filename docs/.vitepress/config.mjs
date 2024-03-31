@@ -1,4 +1,6 @@
 import { defineConfig } from 'vitepress'
+import sidebar from './sidebar'
+import socialLinks from './link'
 import algolia from './algolia.js'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -13,20 +15,26 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '工作', link: '/work', activeMatch: '/work/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: {
-      "/work/":
+      { text: '💭 学习笔记', link: '/guide/', activeMatch: '/guide/' },
       {
-        base: '/work/',
+        text: '🔥 专栏',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+          { text: '🔥 前端算法', link: '/algorithm/guide/' },
+          { text: '🔥 源码专辑', link: '/code/guide/' },
+          { text: '🔥 设计模式', link: '/patterns/guide/' },
+          { text: '📋 面试大全', link: '/interview/' },
+        ],
+      },
+      { text: '💻 工作', link: '/work', activeMatch: '/work/' },
+    ],
+    outlineTitle: '目录',
+    outline: [2, 5],
+    docFooter: {
+      prev: '上一篇',
+      next: '下一篇',
     },
+    sidebar,
+    socialLinks,
     search: {
       provider: 'algolia',
       options: algolia

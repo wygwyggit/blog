@@ -1,7 +1,7 @@
 {
-  "name": "myblog-vitepress",
+  "name": "wokuBlog",
   "version": "1.0.0",
-  "description": "",
+  "description": "一站式前端内容分享网站，包括学习笔记、工作生活",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +10,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "keywords": [],
-  "author": "",
+  "author": "yungen_wang@woku.net",
   "license": "ISC",
   "devDependencies": {
     "vitepress": "^1.0.0-rc.45"
