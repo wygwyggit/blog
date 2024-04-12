@@ -29,13 +29,13 @@
 
 
 
-服务端渲染的路由-返回页面
+## 服务端渲染的路由-返回页面
 
 服务端文件目录结构如下：
 
 ![image-20240412220234402](https://static.woku.net/blog/image-20240412220234402.png)
 
-需求：当访问http://localhost:8081时候，服务端响应`index.html` 
+需求：当访问http://localhost:8081/时候，服务端响应`index.html` 
 
 ​            当访问http://localhost:8081/list 时候，服务端响应`list.html` 
 
@@ -84,9 +84,9 @@ app.listen(8081, () => {
 
 ## 多页面路由
 
-多个HTML文件进行切换。
+- 多个HTML文件进行切换。
 
-一定存在着HTML资源的请求与响应。
+- 一定存在着HTML资源的请求与响应。
 
 
 
