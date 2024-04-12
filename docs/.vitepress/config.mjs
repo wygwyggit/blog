@@ -6,6 +6,7 @@ import algolia from './algolia.js'
 export default defineConfig({
   title: "我酷前端小站",
   description: "这有关于前端、后端相关的文章和笔记内容，还有项目合集和生活分享。相信你可以在这里找到对你有用的知识和教程",
+  ignoreDeadLinks: true, // 忽略死链接
   lastUpdated: true,
   head: [
     ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
