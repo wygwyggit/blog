@@ -35,7 +35,7 @@
 
 ![image-20240412220234402](https://static.woku.net/blog/image-20240412220234402.png)
 
-需求：当访问http://localhost:8081/时候，服务端响应`index.html` 
+需求：当访问http://localhost:8081时候，服务端响应`index.html` 
 
 ​            当访问http://localhost:8081/list 时候，服务端响应`list.html` 
 
