@@ -16,7 +16,7 @@ app.listen(8081, () => {
 
 
 
-使用`history` 路由模式，也是将页面的某个固定HTML的内容进行替换从而达到页面切换的效果。、
+使用`history` 路由模式，也是将页面的某个固定HTML的内容进行替换从而达到页面切换的效果。
 
 那么无论请求的地址是 http://localhost:8081/home 还是 http://localhost:8081/list  都需要返回一个带有固定HTML内容的页面，也就是`index.html` , 在这个页面中，将ID为app的元素里面的内容进行替换。
 
