@@ -14,6 +14,9 @@ export default function es6Docs() {
                         },  {
                             text: '错误类型，常量声明与封闭对象',
                             link: '/es6/base/constantCollection',
+                        },  {
+                            text: '数据类型与字面量',
+                            link: '/es6/base/dataType',
                         }
                     ]
                 },
