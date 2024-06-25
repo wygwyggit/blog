@@ -17,6 +17,9 @@ export default function es6Docs() {
                         },  {
                             text: '数据类型与字面量',
                             link: '/es6/base/dataType',
+                        },  {
+                            text: '语句块和块级作用域',
+                            link: '/es6/base/block',
                         }
                     ]
                 },
