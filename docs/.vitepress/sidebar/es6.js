@@ -20,6 +20,15 @@ export default function es6Docs() {
                         },  {
                             text: '语句块和块级作用域',
                             link: '/es6/base/block',
+                        },  {
+                            text: '迭代协议',
+                            link: '/es6/base/iterator',
+                        }, {
+                            text: 'for循环与let之间的特殊关系',
+                            link: '/es6/base/eachLetAndVar',
+                        }, {
+                            text: '函数闭包和箭头函数',
+                            link: '/es6/base/ArrowFun',
                         }
                     ]
                 },
