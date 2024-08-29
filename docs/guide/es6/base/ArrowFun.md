@@ -168,6 +168,8 @@ new a()会报错：Uncaught TypeError: a is not a constructor。
 
 ### 箭头函数中的`this` 
 
+**this  执行期上下文**
+
 ~~~js
         function a() {
             this.name = 'wk'
@@ -257,3 +259,7 @@ new a()会报错：Uncaught TypeError: a is not a constructor。
         console.log(t2)
 ~~~
 
+注意：
+
+1. this => 函数没有执行的时候，指向是不能确定的
+2. 箭头函数并不是在执行之前，就能确定this指向，只是**在程序执行的时候**，总是指向父作用域的this指向。
