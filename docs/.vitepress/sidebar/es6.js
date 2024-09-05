@@ -30,8 +30,11 @@ export default function es6Docs() {
                             text: '函数闭包和箭头函数',
                             link: '/es6/base/ArrowFun',
                         }, {
-                            text: '参数空间和展开语法',
+                            text: '参数空间和展开语法', 
                             link: '/es6/base/spread_syntax',
+                        }, {
+                            text: '解构赋值', 
+                            link: '/es6/base/destructingAssignment',
                         }
                     ]
                 },
