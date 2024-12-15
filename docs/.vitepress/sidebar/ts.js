@@ -1,0 +1,20 @@
+export default function es6Docs() {
+  return [
+    {
+      text: "typescript",
+      base: "/guide/",
+      collapsed: false,
+      items: [
+        {
+          text: "基础",
+          items: [
+            {
+              text: "typescript核心概念",
+              link: "/typescript/base/core",
+            }
+          ],
+        },
+      ],
+    },
+  ];
+}
