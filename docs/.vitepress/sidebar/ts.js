@@ -1,4 +1,4 @@
-export default function es6Docs() {
+export default function tsDocs() {
   return [
     {
       text: "typescript",
