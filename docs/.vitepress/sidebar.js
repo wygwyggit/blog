@@ -1,4 +1,4 @@
-import { sidebarVueDocs, sidebarEs6 } from './sidebar/index'
+import { sidebarVueDocs, sidebarEs6, sidebarTs } from './sidebar/index'
 export default {
     "/guide/": [
         {
@@ -9,7 +9,8 @@ export default {
             ]
         },
         ...sidebarVueDocs(),
-        ...sidebarEs6()
+        ...sidebarEs6(),
+        ...sidebarTs(),
        
     ]
 }
