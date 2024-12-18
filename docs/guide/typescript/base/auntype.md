@@ -87,10 +87,10 @@ a = {}
 a.sayHi() // 报错 'a' is of type 'unknown'
 ```
 
-## nerver
+## never
 TS的底层类型，没有可分配的类型了
 
-下面代码中，default逻辑中的`a`就是`nerver`类型。在前面，`number`和`string`已经分配了，类型缩小，最后没有可分配的类型了。
+下面代码中，default逻辑中的`a`就是`never`类型。在前面，`number`和`string`已经分配了，类型缩小，最后没有可分配的类型了。
 
 `test`函数需要返回number | string，但是在default中，没有return,那么默认返回undefined。
 
