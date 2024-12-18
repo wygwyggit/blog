@@ -11,7 +11,11 @@ export default function tsDocs() {
             {
               text: "typescript核心概念",
               link: "/typescript/base/core",
-            }
+            },
+            {
+              text: "any, unknown, never类型",
+              link: "/typescript/base/auntype",
+            },
           ],
         },
       ],
