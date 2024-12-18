@@ -161,19 +161,5 @@ plus(1, 2, (a, b, res) => {
 })
 ```
 
-## <font style="color:rgb(204, 204, 204);background-color:rgb(32, 32, 32);"></font>一些小技巧
-+ 如何定义type来约束一个对象，键名只有`a`, `b`, `c`。值是数值 ，字符串和布尔值类型
 
-```typescript
-type TKey =  'a' | 'b' | 'c'
-type TValue = string | number | boolean
-type TObj = {
-    [key in TKey]: TValue
-}
-let personInfo : TObj = {
-    a: 'woku',
-    b: 28,
-    c: true,
-}
-```
 
