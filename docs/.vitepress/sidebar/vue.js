@@ -33,6 +33,22 @@ export default function vueDocs() {
                 text: "组合式API-setup函数",
                 link: "/vue/vue3/setup",
               },
+              {
+                text: "组合式API-生命周期",
+                link: "/vue/vue3/lifecycle",
+              },
+              {
+                text: "组合式API-provide/inject",
+                link: "/vue/vue3/provide-inject",
+              },
+              {
+                text: "组合式API-设置全局属性",
+                link: "/vue/vue3/globalPropertys",
+              },
+              {
+                text: "组合式API-响应式的原理及实现",
+                link: "/vue/vue3/defineProperty-proxy",
+              },
             ],
           },
         ],
