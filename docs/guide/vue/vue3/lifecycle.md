@@ -1,6 +1,6 @@
 vue2生命周期执行顺序回顾
 
-![](https://cdn.nlark.com/yuque/0/2024/png/12494740/1735460813222-ab8739ea-fe68-4a8f-861c-534f1b88a440.png)
+![](../../images/lifecycle.png)
 
 | vue2 | vue3-Options API | vue3-Composition API |
 | --- | --- | --- |
